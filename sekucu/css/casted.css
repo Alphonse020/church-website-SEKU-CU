@@ -1,0 +1,134 @@
+@media (min-width:601px) {
+body{
+	font-weight: 400;
+	font-size: 17px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	 margin: 0px;
+}
+.bars{
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	height: 19px;
+	line-height: 19px;
+font-size: 16px;
+
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+#katikati{
+/*	background:white;*/
+margin-left:3%;
+}
+#content-wrap {
+	background:aliceblue;
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+.say-hi{
+  display: none;
+}
+ .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+   position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+
+.line{
+text-decoration: underline;
+border:1px solid maroon;
+}
+.smallScreen{
+	display: none;
+}
+
+}
+
+
+
+/*masimu*/
+
+@media (max-width:600px) {
+body{
+	font-weight: 400;
+	font-size: 16px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: rgb(255, 255, 255);
+	 margin: 0px;
+}
+#katikati{
+display: none;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+#katikati{
+	background:white;
+margin-left:2%;
+}
+.smallScreen{
+	margin-top: 16%;
+}
+.smallScreen h3{
+text-align: center;
+color: indigo;
+padding: 7px;
+border:1px solid grey;
+}
+
+.smallScreen p{
+	padding: 7px;
+border:1px solid grey;
+margin-top: -8px;
+font-weight: 500;
+}
+#content-wrap {
+	background:aliceblue;
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+.say-hi{
+  display: none;
+}
+ .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+   position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+	}
